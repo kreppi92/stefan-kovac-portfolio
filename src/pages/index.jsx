@@ -99,7 +99,7 @@ const Index = () => (
             Web designer / coder for this multi-million dollar xBox project. Built using WordPress CMS.
           </ProjectCard>
           <ProjectCard
-            title="Recipe App"
+            title="Simple Recipe App"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg={portfolioRecipes}
             github="https://github.com/kreppi92/recipeAppDemo"
@@ -129,7 +129,7 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Shoot me an <a href="mailto:stefankovac416@gmail.com">e-mail</a> or find me on other platforms:{' '}
+            Shoot me an <a href="mailto:stefankovac416@gmail.com">e-mail</a> or find me on other platforms:{' '}<br/><br/>
             <a href="https://github.com/Kreppi92"><FontAwesomeIcon icon={faGithub} />{' GitHub '}</a> {" or "}
             <a href="https://www.linkedin.com/in/stefan-kovac/"><FontAwesomeIcon icon={faLinkedin} />{' LinkedIn '}</a>
           </ContactText>

@@ -23,12 +23,13 @@ const Wrapper = styled.a`
 
 const Overlay = styled.div`
   ${tw`shadow-lg relative no-underline rounded-lg px-8 py-8 md:py-24 text-white`};
-background: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,.4));
+background: linear-gradient(to bottom,rgba(0,0,0,0.4), rgba(0,0,0,.7));
+opacity: .6;
 width: 100%;
 height: 100%;
-transition: 0.8s;
+transition: 0.4s;
 &:hover {
-  background: linear-gradient(to bottom,rgba(0,0,0,0.4), rgba(0,0,0,.7));
+  opacity: 1;
   }
 `
 
