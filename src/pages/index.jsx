@@ -130,7 +130,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Shoot me an <a href="mailto:stefankovac416@gmail.com">e-mail</a> or find me on other platforms:{' '}<br/><br/>
-            <a href="https://github.com/Kreppi92"><FontAwesomeIcon icon={faGithub} />{' GitHub '}</a> {" // "}
+            <a href="https://github.com/Kreppi92"><FontAwesomeIcon icon={faGithub} />{' GitHub '}</a> {" || "}
             <a href="https://www.linkedin.com/in/stefan-kovac/"><FontAwesomeIcon icon={faLinkedin} />{' LinkedIn '}</a>
           </ContactText>
         </Inner>
