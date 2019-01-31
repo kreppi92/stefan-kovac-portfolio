@@ -50,7 +50,7 @@ const Avatar = styled.img`
 `
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white font-sans pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
 `
 
 const AboutDesc = styled.p`
@@ -119,7 +119,7 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I like to create cool stuff, whether its building new apps using a tech stack based on ReactJS, Express and NodeJS,
+          I like to create awesome stuff, whether its building new apps using a tech stack based on ReactJS, Express and NodeJS,
           or designing in the Adobe Creative Suite and creating 3D models. 
           <br/><br/>
           Building something cool? Let me know!
@@ -130,7 +130,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Shoot me an <a href="mailto:stefankovac416@gmail.com">e-mail</a> or find me on other platforms:{' '}<br/><br/>
-            <a href="https://github.com/Kreppi92"><FontAwesomeIcon icon={faGithub} />{' GitHub '}</a> {" or "}
+            <a href="https://github.com/Kreppi92"><FontAwesomeIcon icon={faGithub} />{' GitHub '}</a> {" // "}
             <a href="https://www.linkedin.com/in/stefan-kovac/"><FontAwesomeIcon icon={faLinkedin} />{' LinkedIn '}</a>
           </ContactText>
         </Inner>
