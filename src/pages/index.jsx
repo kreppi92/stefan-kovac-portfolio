@@ -119,8 +119,8 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I like to create cool stuff, whether its creating new apps using a tech stack based on ReactJS, Express and NodeJS,
-          or whether designing stuff in the Adobe Creative Suite and creating 3D models. 
+          I like to create cool stuff, whether its building new apps using a tech stack based on ReactJS, Express and NodeJS,
+          or designing in the Adobe Creative Suite and creating 3D models. 
           <br/><br/>
           Building something cool? Let me know!
         </AboutDesc>
