@@ -22,6 +22,7 @@ import avatar from '../images/avatar.jpg'
 import portfolioGoat from '../images/portfolio-goat.jpg'
 import portfolioMapfolio from '../images/portfolio-mapfolio.jpg'
 import portfolioRecipes from '../images/portfolio-recipes.jpg'
+import portfolioAngelcoins from '../images/portfolio-angelcoins.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -80,6 +81,16 @@ const Index = () => (
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
+        <ProjectCard
+            title="AngelCoins"
+            link="https://angelcoins.netlify.com/"
+            // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg={portfolioAngelcoins}
+            github="https://github.com/kreppi92/angelcoins-frontend"
+            deployed="https://angelcoins.netlify.com/"
+          >
+            Platform for buying shares in startups using Cryptocurrencies.
+          </ProjectCard>
           <ProjectCard
             title="MapFolio"
             link="https://www.behance.net/gallery/58937147/Freiheit"
