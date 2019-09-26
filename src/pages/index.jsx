@@ -155,7 +155,7 @@ const Index = () => {
               title="StellarX UI/UX"
               link="https://angelcoins.netlify.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-              bg={diamThumbnail}
+              bg={stellar2}
               // github="https://github.com/kreppi92/angelcoins-frontend"
               // deployed="https://angelcoins.netlify.com/"
               toggle={{toggler, setToggler}}

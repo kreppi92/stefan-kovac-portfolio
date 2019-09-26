@@ -24,8 +24,8 @@ const Overlay = styled.div`
   ${tw`shadow-lg relative no-underline rounded-lg px-8 py-8 md:py-24 text-white`};
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.7)
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8)
   );
   opacity: 0.6;
   width: 100%;
