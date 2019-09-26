@@ -37,6 +37,9 @@ import stellar1 from "../images/stellar1.png"
 import stellar2 from "../images/stellar2.png"
 import stellar3 from "../images/stellar3.png"
 
+import stellarDashboard from "../images/stellar-dashboard-fullsize.png"
+import stellarThumbnail from "../images/stellar-dashboard-thumbnail.png"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -84,9 +87,10 @@ const Index = () => {
   const lightbox = {
     Diam: [diamFullsize, diamFullsize2],
     Yorkville: [yorkvilleFullsize],
-    StellarX: [stellar1, stellar2, stellar3]
+    StellarDashboard: [stellarDashboard],
+    StellarMobile: [stellar1, stellar2, stellar3]
   }
-  const [currentLightbox, setCurrentLightbox] = useState("StellarX") 
+  const [currentLightbox, setCurrentLightbox] = useState("Stellar") 
   return (
     <>
       <Layout />
@@ -147,12 +151,26 @@ const Index = () => {
             </ProjectCard>
           </ProjectsWrapper>
         </Projects>
-        <Projects offset={2}>
+        <Projects offset={2.2}>
           <Title>Other Cool Stuff I've Made</Title>
           <ProjectsWrapper>
           <ProjectCard
-              id="StellarX"
-              title="StellarX UI/UX"
+              id="StellarDashboard"
+              title="StellarX Dashboard"
+              link="https://angelcoins.netlify.com/"
+              // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              bg={stellarThumbnail}
+              // github="https://github.com/kreppi92/angelcoins-frontend"
+              // deployed="https://angelcoins.netlify.com/"
+              toggle={{toggler, setToggler}}
+              setCurrentLightbox={setCurrentLightbox}
+              lightbox
+            >
+              UI/UX Dashboard Design for Crypto Currency Trading Platform
+            </ProjectCard>
+          <ProjectCard
+              id="StellarMobile"
+              title="StellarX Mobile Trading"
               link="https://angelcoins.netlify.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               bg={stellar2}
@@ -162,7 +180,7 @@ const Index = () => {
               setCurrentLightbox={setCurrentLightbox}
               lightbox
             >
-              UI/UX Design for Crypto Currency Trading Platform
+              UI/UX Mobile Trading Design for Crypto Currency Trading Platform
             </ProjectCard>
             <ProjectCard
               id="Diam"
