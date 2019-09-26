@@ -213,7 +213,7 @@ const Index = () => {
             </ProjectCard>
           </ProjectsWrapper>
         </Projects>
-        <About offset={3.5}>
+        <About offset={3}>
           <Title>About</Title>
           <AboutHero>
             <Avatar src={avatar} alt="Stefan Kovac" />
