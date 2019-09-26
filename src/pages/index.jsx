@@ -26,19 +26,19 @@ import portfolioMapfolio from "../images/portfolio-mapfolio.jpg";
 import portfolioRecipes from "../images/portfolio-recipes.jpg";
 import portfolioAngelcoins from "../images/portfolio-angelcoins.jpg";
 
-import diamThumbnail from "../images/diam-thumbnail.png"
-import diamFullsize from "../images/diam-fullsize.jpg"
-import diamFullsize2 from "../images/diam-fullsize-2.jpg"
+import diamThumbnail from "../images/diam-thumbnail.png";
+import diamFullsize from "../images/diam-fullsize.jpg";
+import diamFullsize2 from "../images/diam-fullsize-2.jpg";
 
-import yorkvilleThumbnail from "../images/yorkville-thumbnail.png"
-import yorkvilleFullsize from "../images/yorkville-fullsize.jpg"
+import yorkvilleThumbnail from "../images/yorkville-thumbnail.png";
+import yorkvilleFullsize from "../images/yorkville-fullsize.jpg";
 
-import stellar1 from "../images/stellar1.png"
-import stellar2 from "../images/stellar2.png"
-import stellar3 from "../images/stellar3.png"
+import stellar1 from "../images/stellar1.png";
+import stellar2 from "../images/stellar2.png";
+import stellar3 from "../images/stellar3.png";
 
-import stellarDashboard from "../images/stellar-dashboard-fullsize.png"
-import stellarThumbnail from "../images/stellar-dashboard-thumbnail.png"
+import stellarDashboard from "../images/stellar-dashboard-fullsize.png";
+import stellarThumbnail from "../images/stellar-dashboard-thumbnail.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -83,14 +83,14 @@ const Footer = styled.footer`
 `;
 
 const Index = () => {
-  const [toggler, setToggler] = useState(false);
   const lightbox = {
     Diam: [diamFullsize, diamFullsize2],
     Yorkville: [yorkvilleFullsize],
     StellarDashboard: [stellarDashboard],
     StellarMobile: [stellar1, stellar2, stellar3]
-  }
-  const [currentLightbox, setCurrentLightbox] = useState("Stellar") 
+  };
+  const [toggler, setToggler] = useState(false);
+  const [currentLightbox, setCurrentLightbox] = useState("Diam");
   return (
     <>
       <Layout />
@@ -150,11 +150,9 @@ const Index = () => {
               Material UI
             </ProjectCard>
           </ProjectsWrapper>
-        </Projects>
-        <Projects offset={2.2}>
           <Title>Other Cool Stuff I've Made</Title>
           <ProjectsWrapper>
-          <ProjectCard
+            <ProjectCard
               id="StellarDashboard"
               title="StellarX Dashboard"
               link="https://angelcoins.netlify.com/"
@@ -162,13 +160,13 @@ const Index = () => {
               bg={stellarThumbnail}
               // github="https://github.com/kreppi92/angelcoins-frontend"
               // deployed="https://angelcoins.netlify.com/"
-              toggle={{toggler, setToggler}}
+              toggle={{ toggler, setToggler }}
               setCurrentLightbox={setCurrentLightbox}
               lightbox
             >
               UI/UX Dashboard Design for Crypto Currency Trading Platform
             </ProjectCard>
-          <ProjectCard
+            <ProjectCard
               id="StellarMobile"
               title="StellarX Mobile Trading"
               link="https://angelcoins.netlify.com/"
@@ -176,7 +174,7 @@ const Index = () => {
               bg={stellar2}
               // github="https://github.com/kreppi92/angelcoins-frontend"
               // deployed="https://angelcoins.netlify.com/"
-              toggle={{toggler, setToggler}}
+              toggle={{ toggler, setToggler }}
               setCurrentLightbox={setCurrentLightbox}
               lightbox
             >
@@ -190,7 +188,7 @@ const Index = () => {
               bg={diamThumbnail}
               // github="https://github.com/kreppi92/angelcoins-frontend"
               // deployed="https://angelcoins.netlify.com/"
-              toggle={{toggler, setToggler}}
+              toggle={{ toggler, setToggler }}
               setCurrentLightbox={setCurrentLightbox}
               lightbox
             >
@@ -204,7 +202,7 @@ const Index = () => {
               bg={yorkvilleThumbnail}
               // github="https://github.com/kreppi92/angelcoins-frontend"
               // deployed="https://angelcoins.netlify.com/"
-              toggle={{toggler, setToggler}}
+              toggle={{ toggler, setToggler }}
               setCurrentLightbox={setCurrentLightbox}
               lightbox
             >
@@ -252,9 +250,9 @@ const Index = () => {
         </Contact>
       </Parallax>
       <FsLightbox
-      toggler={toggler} 
-      sources={lightbox[currentLightbox]} 
-      key={ currentLightbox }
+        toggler={toggler}
+        sources={lightbox[currentLightbox]}
+        key={currentLightbox}
       />
     </>
   );

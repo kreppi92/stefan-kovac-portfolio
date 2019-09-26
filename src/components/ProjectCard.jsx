@@ -72,22 +72,26 @@ const ProjectCard = ({
   toggle
 }) => {
   return (
-    <Wrapper href={deployed} onClick={() => {
-      if (lightbox) {
-      toggle.setToggler(!toggle.toggler)
-      setCurrentLightbox(id)}
-    }} bg={bg}>
+    <Wrapper
+      href={deployed}
+      onClick={() => {
+        if (lightbox) {
+          setCurrentLightbox(id);
+          toggle.setToggler(!toggle.toggler);
+        }
+      }}
+      bg={bg}
+      style={{ cursor: "pointer" }}
+    >
       <Overlay>
         <Title>{title}</Title>
         <Text>{children}</Text>
         <br />
         {github ? (
           <Fragment>
-            <Link>
-              <a href={github} target="_blank" style={{ cursor: "pointer" }}>
-                <FontAwesomeIcon icon={faGithub} />
-                {" View Source Code on GitHub "}
-              </a>
+            <Link to={github} style={{ cursor: "pointer" }}>
+              <FontAwesomeIcon icon={faGithub} />
+              {" View Source Code on GitHub "}
             </Link>
           </Fragment>
         ) : (
@@ -95,11 +99,9 @@ const ProjectCard = ({
         )}
         {deployed ? (
           <Fragment>
-            <Link>
-              <a href={deployed} target="_blank" style={{ cursor: "pointer" }}>
-                <FontAwesomeIcon icon={faRocket} />
-                {" View Deployed "}
-              </a>
+            <Link to={deployed} style={{ cursor: "pointer" }}>
+              <FontAwesomeIcon icon={faRocket} />
+              {" View Deployed "}
             </Link>
           </Fragment>
         ) : (
