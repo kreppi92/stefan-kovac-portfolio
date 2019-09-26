@@ -126,6 +126,7 @@ const Index = () => {
               github="https://github.com/kreppi92/finalproject"
               deployed="https://decodemtl-nsu.firebaseapp.com/"
             >
+              *FOR DESKTOP* <br/>
               Project Management Dashboard for Construction Industry. Built
               using ReactJS, FireBase.
             </ProjectCard>
@@ -145,6 +146,7 @@ const Index = () => {
               github="https://github.com/kreppi92/recipeAppDemo"
               deployed="https://recipe-app-demo-slingshot.herokuapp.com/"
             >
+              *FOR DESKTOP* <br/>
               Built using React, Redux, React-Router, LocalStorage Persistence,
               BrowserSync, ES Linting, Jest&Enzyme, Sass, HML, Responsive Grid,
               Material UI
