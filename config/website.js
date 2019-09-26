@@ -10,7 +10,7 @@ module.exports = {
   siteUrl: 'stefankovac.ca', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
-  siteDescription: 'Playful & Colorful One-Page website with Parallax effect',
+  siteDescription: `If you want to know more about Stefan Kovac's work then you're in the right place!`,
   author: 'Stefan Kovac', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
