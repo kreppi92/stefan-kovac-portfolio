@@ -152,6 +152,7 @@ const Index = () => {
               Material UI
             </ProjectCard>
           </ProjectsWrapper>
+          <br/><br/>
           <Title>Other Cool Stuff I've Made</Title>
           <ProjectsWrapper>
             <ProjectCard
