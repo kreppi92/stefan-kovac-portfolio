@@ -89,9 +89,11 @@ const ProjectCard = ({
         <br />
         {github ? (
           <Fragment>
-            <Link to={github} style={{ cursor: "pointer" }}>
+            <Link style={{ cursor: "pointer" }}>
+              <a href={github}>
               <FontAwesomeIcon icon={faGithub} />
               {" View Source Code on GitHub "}
+              </a>
             </Link>
           </Fragment>
         ) : (
