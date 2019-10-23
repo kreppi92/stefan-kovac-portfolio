@@ -84,13 +84,12 @@ const Footer = styled.footer`
 
 const Index = () => {
   const lightbox = {
-    Diam: [diamFullsize, diamFullsize2],
-    Yorkville: [yorkvilleFullsize],
+    Yorkville: [diamFullsize, yorkvilleFullsize, diamFullsize2],
     StellarDashboard: [stellarDashboard],
     StellarMobile: [stellar1, stellar2, stellar3]
   };
   const [toggler, setToggler] = useState(false);
-  const [currentLightbox, setCurrentLightbox] = useState("Diam");
+  const [currentLightbox, setCurrentLightbox] = useState("Yorkville");
   return (
     <>
       <Layout />
@@ -172,23 +171,9 @@ const Index = () => {
               UI/UX Mobile Trading Design for Crypto Currency Trading Platform
             </ProjectCard>
             <ProjectCard
-              id="Diam"
-              title="Diam Rendering"
-              link="https://angelcoins.netlify.com/"
-              // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-              bg={diamThumbnail}
-              // github="https://github.com/kreppi92/angelcoins-frontend"
-              // deployed="https://angelcoins.netlify.com/"
-              toggle={{ toggler, setToggler }}
-              setCurrentLightbox={setCurrentLightbox}
-              lightbox
-            >
-              3D Rendering for $15MM Residential Development Project
-            </ProjectCard>
-            <ProjectCard
               id="Yorkville"
               title="Yorkville Rendering"
-              link="https://angelcoins.netlify.com/"
+              // link="https://angelcoins.netlify.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               bg={yorkvilleThumbnail}
               // github="https://github.com/kreppi92/angelcoins-frontend"
@@ -197,7 +182,7 @@ const Index = () => {
               setCurrentLightbox={setCurrentLightbox}
               lightbox
             >
-              3D Rendering for $2MM Condo in Yorkville, Toronto
+              3D Renderings for $15MM Residential Development in Yorkville, Toronto
             </ProjectCard>
           </ProjectsWrapper>
         </Projects>
