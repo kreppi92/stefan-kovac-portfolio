@@ -139,18 +139,6 @@ const Index = () => {
               Web designer / coder for this multi-million dollar xBox project.
               Built using WordPress CMS.
             </ProjectCard>
-            <ProjectCard
-              title="Simple Recipe App"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-              bg={portfolioRecipes}
-              github="https://github.com/kreppi92/recipeAppDemo"
-              deployed="https://recipe-app-demo-slingshot.herokuapp.com/"
-            >
-              *FOR DESKTOP* <br/>
-              Built using React, Redux, React-Router, LocalStorage Persistence,
-              BrowserSync, ES Linting, Jest&Enzyme, Sass, HML, Responsive Grid,
-              Material UI
-            </ProjectCard>
           </ProjectsWrapper>
           <br/><br/>
           <Title>Other Cool Stuff I've Made</Title>
