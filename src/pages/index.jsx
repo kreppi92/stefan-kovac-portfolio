@@ -172,7 +172,7 @@ const Index = () => {
             </ProjectCard>
             <ProjectCard
               id="Yorkville"
-              title="Yorkville Rendering"
+              title="Yorkville Renderings"
               // link="https://angelcoins.netlify.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               bg={yorkvilleThumbnail}
