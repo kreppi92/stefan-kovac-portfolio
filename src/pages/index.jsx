@@ -131,7 +131,8 @@ const Index = () => {
               github="https://github.com/zyngly/sol-wallet-adapter"
               deployed="https://solpage.io/"
             >
-              Ad space NFT project based on MillionDollarPage.com (Beta)
+              Ad space NFT project based on MillionDollarPage.com. Submitted for
+              the Solana Hackathon (Beta Release)
             </ProjectCard>
             <ProjectCard
               title="Ribbon Home"
