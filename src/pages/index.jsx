@@ -23,7 +23,7 @@ import avatar from "../images/avatar.jpg";
 
 import portfolioGoat from "../images/portfolio-goat.jpg";
 import portfolioMapfolio from "../images/portfolio-mapfolio.jpg";
-import portfolioAngelcoins from "../images/portfolio-angelcoins.jpg";
+import portfolioRibbon from "../images/ribbon-thumbnail.png";
 import portfolioZipp from "../images/zipp.png";
 import portfolioSolpage from "../images/solpage.png";
 
@@ -110,7 +110,7 @@ const Index = () => {
           </Subtitle>
         </Hero>
         <Projects offset={1}>
-          <Title>Software Engineering Projects</Title>
+          <Title>Software Engineering</Title>
           <ProjectsWrapper>
             <ProjectCard
               title="zipp"
@@ -133,6 +133,16 @@ const Index = () => {
               Ad space NFT project based on MillionDollarPage.com (Beta)
             </ProjectCard>
             <ProjectCard
+              title="Ribbon Home"
+              link="https://www.ribbonhome.com/"
+              // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              bg={portfolioRibbon}
+              deployed="https://www.ribbonhome.com/"
+            >
+              Employee at Ribbon Home. Real estate solutions for agents. I've
+              built features such as the Home Listing product.
+            </ProjectCard>
+            <ProjectCard
               title="StableCoin"
               link="https://laughing-morse-08716a.netlify.app/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
@@ -140,8 +150,7 @@ const Index = () => {
               github="https://github.com/stellarx-cs"
               deployed="https://laughing-morse-08716a.netlify.app/"
             >
-              Stablecoin for $CAD on Stellar blockchain. Coin listed on
-              StellarX.
+              Stablecoin for $CAD on Stellar blockchain. Listed on StellarX.
             </ProjectCard>
             {/* <ProjectCard
               title="AngelCoins"
@@ -176,7 +185,7 @@ const Index = () => {
           </ProjectsWrapper>
           <br />
           <br />
-          <Title>Other Cool Stuff I've Made</Title>
+          <Title>Design</Title>
           <ProjectsWrapper>
             <ProjectCard
               id="StellarDashboard"
@@ -208,7 +217,7 @@ const Index = () => {
             </ProjectCard>
             <ProjectCard
               id="Yorkville"
-              title="Yorkville Renderings"
+              title="Architecture"
               // link="https://angelcoins.netlify.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               bg={yorkvilleThumbnail}
@@ -247,9 +256,8 @@ const Index = () => {
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            I like to create awesome stuff, whether its building new apps using
-            a tech stack based on ReactJS, Express and NodeJS, or designing in
-            the Adobe Creative Suite and creating 3D models.
+            I like to create awesome stuff using design and technology. I'm
+            pretty good at both.
             <br />
             <br />
             Building something cool? Let me know!
@@ -273,7 +281,7 @@ const Index = () => {
               </a>
             </ContactText>
           </Inner>
-          <Footer>&copy; 2019</Footer>
+          <Footer>&copy; 2021</Footer>
         </Contact>
       </Parallax>
       <FsLightbox
