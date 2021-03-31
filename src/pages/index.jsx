@@ -141,8 +141,8 @@ const Index = () => {
               bg={portfolioRibbon}
               deployed="https://www.ribbonhome.com/"
             >
-              Employee at Ribbon Home. Real estate solutions for agents. I've
-              built features such as the Home Listing product.
+              Employee at Ribbon Home. Tech solutions for real estate agents.
+              I've built features such as the Home Listing product.
             </ProjectCard>
             <ProjectCard
               title="StellarX"
