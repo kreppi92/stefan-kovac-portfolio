@@ -144,7 +144,7 @@ const Index = () => {
               built features such as the Home Listing product.
             </ProjectCard>
             <ProjectCard
-              title="StableCoin"
+              title="StellarX"
               link="https://stellarx.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               bg={portfolioStellar}
