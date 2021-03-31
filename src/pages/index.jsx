@@ -26,6 +26,7 @@ import portfolioMapfolio from "../images/portfolio-mapfolio.jpg";
 import portfolioRibbon from "../images/ribbon-thumbnail.png";
 import portfolioZipp from "../images/zipp.png";
 import portfolioSolpage from "../images/solpage.png";
+import portfolioStellar from "../images/stellarx.jpg";
 
 import diamFullsize from "../images/diam-fullsize.jpg";
 import diamFullsize2 from "../images/diam-fullsize-2.jpg";
@@ -144,13 +145,14 @@ const Index = () => {
             </ProjectCard>
             <ProjectCard
               title="StableCoin"
-              link="https://laughing-morse-08716a.netlify.app/"
+              link="https://stellarx.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-              bg={portfolioSolpage}
+              bg={portfolioStellar}
               github="https://github.com/stellarx-cs"
-              deployed="https://laughing-morse-08716a.netlify.app/"
+              deployed="https://stellarx.com/"
             >
-              Stablecoin for $CAD on Stellar blockchain. Listed on StellarX.
+              Employee at StellarX working on StellarX marketplace and the
+              Stablecoin project on Stellar blockchain.
             </ProjectCard>
             {/* <ProjectCard
               title="AngelCoins"
