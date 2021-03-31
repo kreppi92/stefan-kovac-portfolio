@@ -23,10 +23,10 @@ import avatar from "../images/avatar.jpg";
 
 import portfolioGoat from "../images/portfolio-goat.jpg";
 import portfolioMapfolio from "../images/portfolio-mapfolio.jpg";
-import portfolioRecipes from "../images/portfolio-recipes.jpg";
 import portfolioAngelcoins from "../images/portfolio-angelcoins.jpg";
+import portfolioZipp from "../images/zipp.png";
+import portfolioSolpage from "../images/solpage.png";
 
-import diamThumbnail from "../images/diam-thumbnail.png";
 import diamFullsize from "../images/diam-fullsize.jpg";
 import diamFullsize2 from "../images/diam-fullsize-2.jpg";
 
@@ -86,7 +86,7 @@ const Index = () => {
   const lightbox = {
     Yorkville: [diamFullsize, yorkvilleFullsize, diamFullsize2],
     StellarDashboard: [stellarDashboard],
-    StellarMobile: [stellar1, stellar2, stellar3]
+    StellarMobile: [stellar1, stellar2, stellar3],
   };
   const [toggler, setToggler] = useState(false);
   const [currentLightbox, setCurrentLightbox] = useState("Yorkville");
@@ -101,13 +101,33 @@ const Index = () => {
           <Subtitle>
             Full stack developer and designer. <br />
             If you want to know more about my work then you're in the right
-            place!{" "}
+            place!
           </Subtitle>
         </Hero>
         <Projects offset={1}>
           <Title>Software Engineering Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
+              title="zipp"
+              link="https://zipp.xyz/"
+              // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              bg={portfolioZipp}
+              github="https://github.com/zyngly/zyngly-landing"
+              deployed="https://zipp.xyz"
+            >
+              Mobile audio NFT marketplace
+            </ProjectCard>
+            <ProjectCard
+              title="Solpage"
+              link="https://solpage.io/"
+              // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              bg={portfolioSolpage}
+              github="https://github.com/zyngly/sol-wallet-adapter"
+              deployed="https://solpage.io/"
+            >
+              Ad space NFT project based on MillionDollarPage.com
+            </ProjectCard>
+            {/* <ProjectCard
               title="AngelCoins"
               link="https://angelcoins.netlify.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
@@ -116,7 +136,7 @@ const Index = () => {
               deployed="https://angelcoins.netlify.com/"
             >
               Platform for buying shares in startups using Cryptocurrencies.
-            </ProjectCard>
+            </ProjectCard> */}
             <ProjectCard
               title="MapFolio"
               link="https://www.behance.net/gallery/58937147/Freiheit"
@@ -125,7 +145,7 @@ const Index = () => {
               github="https://github.com/kreppi92/finalproject"
               deployed="https://decodemtl-nsu.firebaseapp.com/"
             >
-              *FOR DESKTOP* <br/>
+              *FOR DESKTOP* <br />
               Project Management Dashboard for Construction Industry. Built
               using ReactJS, FireBase.
             </ProjectCard>
@@ -139,12 +159,13 @@ const Index = () => {
               Built using WordPress CMS.
             </ProjectCard>
           </ProjectsWrapper>
-          <br/><br/>
+          <br />
+          <br />
           <Title>Other Cool Stuff I've Made</Title>
           <ProjectsWrapper>
             <ProjectCard
               id="StellarDashboard"
-              title="StellarX Dashboard"
+              title="StellarX UIUX MOCKUP"
               link="https://angelcoins.netlify.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               bg={stellarThumbnail}
@@ -158,7 +179,7 @@ const Index = () => {
             </ProjectCard>
             <ProjectCard
               id="StellarMobile"
-              title="StellarX Mobile Trading"
+              title="StellarX Mobile UIUX MOCKUP"
               link="https://angelcoins.netlify.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               bg={stellar2}
@@ -182,7 +203,8 @@ const Index = () => {
               setCurrentLightbox={setCurrentLightbox}
               lightbox
             >
-              3D Renderings for $15MM Residential Development in Yorkville, Toronto
+              3D Renderings for $15MM Residential Development in Yorkville,
+              Toronto
             </ProjectCard>
           </ProjectsWrapper>
         </Projects>
