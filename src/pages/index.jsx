@@ -101,7 +101,7 @@ const Index = () => {
       <Parallax pages={5}>
         <Hero offset={0}>
           <BigTitle>
-            Hi, <br /> I'm Stefan.
+            Hi, <br /> I'm Stefan. 🙋🏼‍♂️
           </BigTitle>
           <Subtitle>
             Full stack developer and designer. <br />
@@ -110,7 +110,7 @@ const Index = () => {
           </Subtitle>
         </Hero>
         <Projects offset={1}>
-          <Title>Software Engineering</Title>
+          <Title>Software Engineering stuff</Title>
           <ProjectsWrapper>
             <ProjectCard
               title="zipp"
@@ -185,7 +185,7 @@ const Index = () => {
           </ProjectsWrapper>
           <br />
           <br />
-          <Title>Design</Title>
+          <Title>Design stuff</Title>
           <ProjectsWrapper>
             <ProjectCard
               id="StellarDashboard"
@@ -256,11 +256,17 @@ const Index = () => {
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            I like to create awesome stuff using design and technology. I'm
-            pretty good at both.
+            I create awesome stuff using design and technology. I love designing
+            apps in Figma/Adobe Creative Suite and building them with a tech
+            stack such as ReactJS, GraphQL and a NodeJS or Django backend. I
+            also love blockchain, 3D printing, architecture but most importantly
+            I love cooking really delicious food and cocktails for my friends.
             <br />
             <br />
-            Building something cool? Let me know!
+            Building something cool? 👨🏼‍💻
+            <br />
+            ...or cooking something delicious? 🍗
+            <br /> Let me know!
           </AboutDesc>
         </About>
         <Contact offset={4}>
