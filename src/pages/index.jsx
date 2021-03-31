@@ -37,6 +37,10 @@ import stellar1 from "../images/stellar1.png";
 import stellar2 from "../images/stellar2.png";
 import stellar3 from "../images/stellar3.png";
 
+import idThumbnail from "../images/waste-receptacle-thumbnail.png";
+import id1 from "../images/waste-receptacle-1.jpg";
+import id2 from "../images/waste-receptacle-2.jpg";
+
 import stellarDashboard from "../images/stellar-dashboard-fullsize.png";
 import stellarThumbnail from "../images/stellar-dashboard-thumbnail.png";
 
@@ -87,6 +91,7 @@ const Index = () => {
     Yorkville: [diamFullsize, yorkvilleFullsize, diamFullsize2],
     StellarDashboard: [stellarDashboard],
     StellarMobile: [stellar1, stellar2, stellar3],
+    IndustrialDesign: [id1, id2],
   };
   const [toggler, setToggler] = useState(false);
   const [currentLightbox, setCurrentLightbox] = useState("Yorkville");
@@ -115,7 +120,7 @@ const Index = () => {
               github="https://github.com/zyngly/zyngly-landing"
               deployed="https://zipp.xyz"
             >
-              Mobile audio NFT marketplace
+              Mobile audio NFT marketplace (Coming soon)
             </ProjectCard>
             <ProjectCard
               title="Solpage"
@@ -125,7 +130,18 @@ const Index = () => {
               github="https://github.com/zyngly/sol-wallet-adapter"
               deployed="https://solpage.io/"
             >
-              Ad space NFT project based on MillionDollarPage.com
+              Ad space NFT project based on MillionDollarPage.com (Beta)
+            </ProjectCard>
+            <ProjectCard
+              title="StableCoin"
+              link="https://laughing-morse-08716a.netlify.app/"
+              // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              bg={portfolioSolpage}
+              github="https://github.com/stellarx-cs"
+              deployed="https://laughing-morse-08716a.netlify.app/"
+            >
+              Stablecoin for $CAD on Stellar blockchain. Coin listed on
+              StellarX.
             </ProjectCard>
             {/* <ProjectCard
               title="AngelCoins"
@@ -146,8 +162,7 @@ const Index = () => {
               deployed="https://decodemtl-nsu.firebaseapp.com/"
             >
               *FOR DESKTOP* <br />
-              Project Management Dashboard for Construction Industry. Built
-              using ReactJS, FireBase.
+              Project Management Dashboard for Construction Industry.
             </ProjectCard>
             <ProjectCard
               title="Ghost Of A Tale"
@@ -155,8 +170,8 @@ const Index = () => {
               bg={portfolioGoat}
               deployed="https://www.ghostofatale.com/"
             >
-              Web designer / coder for this multi-million dollar xBox project.
-              Built using WordPress CMS.
+              Web designer for this award winning Unity game released on xBox,
+              PS4, Switch and others. Built on WordPress.
             </ProjectCard>
           </ProjectsWrapper>
           <br />
@@ -205,6 +220,20 @@ const Index = () => {
             >
               3D Renderings for $15MM Residential Development in Yorkville,
               Toronto
+            </ProjectCard>
+            <ProjectCard
+              id="IndustrialDesign"
+              title="Industrial Design"
+              // link="https://angelcoins.netlify.com/"
+              // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              bg={idThumbnail}
+              // github="https://github.com/kreppi92/angelcoins-frontend"
+              // deployed="https://angelcoins.netlify.com/"
+              toggle={{ toggler, setToggler }}
+              setCurrentLightbox={setCurrentLightbox}
+              lightbox
+            >
+              Designed and manufactured for Toronto's GO Transit Authority
             </ProjectCard>
           </ProjectsWrapper>
         </Projects>
