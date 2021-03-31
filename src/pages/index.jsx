@@ -26,7 +26,7 @@ import portfolioMapfolio from "../images/portfolio-mapfolio.jpg";
 import portfolioRibbon from "../images/ribbon-thumbnail.png";
 import portfolioZipp from "../images/zipp.png";
 import portfolioSolpage from "../images/solpage.png";
-import portfolioStellar from "../images/stellarx.jpg";
+import portfolioStellar from "../images/stellarx.png";
 
 import diamFullsize from "../images/diam-fullsize.jpg";
 import diamFullsize2 from "../images/diam-fullsize-2.jpg";
