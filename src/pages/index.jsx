@@ -159,7 +159,7 @@ const Index = () => {
               deployed="https://stellarx.com/"
             >
               Employee at StellarX working on StellarX marketplace and the
-              Stablecoin project on Stellar blockchain. <br />
+              Stablecoin project built on the Stellar blockchain. <br />
               <br />
               Funded by Stellar Development Fund
             </ProjectCard>
@@ -190,8 +190,8 @@ const Index = () => {
               bg={portfolioGoat}
               deployed="https://www.ghostofatale.com/"
             >
-              Web designer for this award winning Unity game released on xBox,
-              PS4, Switch and others. Built on WordPress.
+              Web designer for the award winning Unity game Ghost of a Tale
+              released on xBox, PS4, Switch and others. Built on WordPress.
             </ProjectCard>
           </ProjectsWrapper>
           <br />
@@ -268,10 +268,11 @@ const Index = () => {
           </AboutHero>
           <AboutDesc>
             I create awesome stuff using design and technology. I love designing
-            apps in Figma/Adobe Creative Suite and building them with a tech
-            stack such as ReactJS, GraphQL and a NodeJS or Django backend. I
-            also love blockchain, 3D printing, architecture but most importantly
-            I love cooking really delicious food and cocktails for my friends.
+            apps in Figma and the Adobe Creative Suite and then building them
+            with a tech, using a stack such as ReactJS, GraphQL with a
+            NodeJS/Express or Python/Django backend. I also love blockchain, 3D
+            printing, architecture but most importantly I love cooking really
+            delicious food and cocktails for my friends.
             <br />
             <br />
             Building something cool? 👨🏼‍💻
