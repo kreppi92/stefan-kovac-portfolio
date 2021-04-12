@@ -121,7 +121,9 @@ const Index = () => {
               github="https://github.com/zyngly/zyngly-landing"
               deployed="https://zipp.xyz"
             >
-              Mobile audio NFT marketplace (Coming soon)
+              Mobile audio NFT marketplace (Coming soon) <br />
+              <br />
+              Pre-seed funding
             </ProjectCard>
             <ProjectCard
               title="Solpage"
@@ -132,7 +134,9 @@ const Index = () => {
               deployed="https://solpage.io/"
             >
               Ad space NFT project based on MillionDollarPage.com. Submitted for
-              the Solana Hackathon (Beta Release)
+              the Solana Hackathon (Beta Release) <br />
+              <br />
+              Pre-seed funding
             </ProjectCard>
             <ProjectCard
               title="Ribbon Home"
@@ -142,7 +146,9 @@ const Index = () => {
               deployed="https://www.ribbonhome.com/"
             >
               Employee at Ribbon Home. Tech solutions for real estate agents.
-              I've built features such as the Home Listing product.
+              I've built features such as the Home Listing product. <br />
+              <br />
+              $555M Raised
             </ProjectCard>
             <ProjectCard
               title="StellarX"
@@ -153,7 +159,9 @@ const Index = () => {
               deployed="https://stellarx.com/"
             >
               Employee at StellarX working on StellarX marketplace and the
-              Stablecoin project on Stellar blockchain.
+              Stablecoin project on Stellar blockchain. <br />
+              <br />
+              Funded by Stellar Development Fund
             </ProjectCard>
             {/* <ProjectCard
               title="AngelCoins"
