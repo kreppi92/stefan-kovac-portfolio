@@ -155,7 +155,7 @@ const Index = () => {
               link="https://stellarx.com/"
               // bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               bg={portfolioStellar}
-              github="https://github.com/stellarx-cs"
+              // github="https://github.com/stellarx-cs"
               deployed="https://stellarx.com/"
             >
               Employee at StellarX working on StellarX marketplace and the
